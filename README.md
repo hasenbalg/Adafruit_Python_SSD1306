@@ -11,18 +11,11 @@ Installing
 ----------
 
 ```
-sudo python -m pip install --upgrade pip setuptools wheel
-sudo pip install Adafruit-SSD1306
+sudo apt install -y python3-pip
+cd Adafruit-SSD1306
+sudo python3 setup.py install
 ```
 
-Or alternatively:
-
-```
-sudo python -m pip install --upgrade pip setuptools wheel
-git clone https://github.com/adafruit/Adafruit_Python_SSD1306.git
-cd Adafruit_Python_SSD1306
-sudo python setup.py install
-```
 
 Copying
 -------
