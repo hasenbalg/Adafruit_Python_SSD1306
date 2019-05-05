@@ -11,7 +11,7 @@ Installing
 ----------
 
 ```
-sudo apt install -y python3-pip
+sudo apt install -y python3-pip python3-pil
 cd Adafruit-SSD1306
 sudo python3 setup.py install
 ```
